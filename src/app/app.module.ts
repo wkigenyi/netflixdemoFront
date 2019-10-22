@@ -14,7 +14,6 @@ import { ActorListComponent } from './actor-list/actor-list.component';
 import { DBService } from './db-service.service';
 import { HttpClientModule } from '@angular/common/http';
 import { SearchMovieComponent } from './search-movie/search-movie.component';
-import { SimpleModalComponent } from './simple-modal/simple-modal.component';
 import { JQ_TOKEN } from './j-query.service';
 import { ModaltriggerDirective } from './modaltrigger.directive';
 
@@ -28,7 +27,6 @@ import { ModaltriggerDirective } from './modaltrigger.directive';
     MovieDetailComponent,
     MovieThumbnailComponent,
     ActorListComponent,
-    SimpleModalComponent,
     SearchMovieComponent,
     ModaltriggerDirective
   ],
