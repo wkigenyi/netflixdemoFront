@@ -1,0 +1,22 @@
+<input
+class="form-control"
+type="text"
+placeholder="Search Movies"
+#search (input)="searchMovie(search.value)"/>
+<div class="modal" tabindex="-1" role="dialog" id="searchmodal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Search Results</h5>
+        <button class="close"><span>&times;</span></button>
+      </div>
+      <div class="modal-body">
+          <ul class="search-result" *ngIf=" movies$ ">
+              <li *ngFor="let movie of movies$ | async "><a routerLink='/detail/{{movie.id}}'>{{movie.title}}</a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+

@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+/*Global Styles*/
+body {
+  padding-top: 100px;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
