@@ -8,7 +8,7 @@ import { Movie } from './Movie';
 })
 export class DBService {
 
-  private apiUrl = 'http://localhost:8000/api';
+  private apiUrl = 'https://fast-gorge-85617.herokuapp.com/api';
   private httpOptions = {headers: new HttpHeaders({'Content-Type' : 'application/json'})};
   constructor(private httpClient: HttpClient) { }
 
