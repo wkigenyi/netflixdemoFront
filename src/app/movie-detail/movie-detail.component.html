@@ -9,10 +9,11 @@
       <div class="panel">
         <p class="panel-title"><strong>Director: </strong> <span class="answer">{{movie.director}}</span></p>
         <p class="panel-title"><strong>Writer: </strong> <span class="answer">{{movie.writer}}</span></p>
-        <p class="panel-title"><strong>Actors: </strong> <span class="answer">{{ movie.actors.splice(',') }}</span></p>
-        <p class="panel-title"><strong>Awards: </strong><span class="answer">{{movie.awards.splice(',')}}</span></p>
+        <p class="panel-title"><strong>Actors: </strong> <span class="answer">{{ movie.actors.toString() }}</span></p>
+        <p class="panel-title"><strong>Awards: </strong><span class="answer">{{movie.awards.toString()}}</span></p>
         <p class="panel-title"><strong>Country: </strong><span class="answer">{{movie.country}}</span></p>
         <p class="panel-title"><strong>Language: </strong><span class="answer">{{movie.language}}</span></p>
+        <p class="panel-title"><strong>Genres: </strong><span class="answer">{{movie.genres.toString()}}</span></p>
         <p class="panel-title"><strong>Year: </strong><span class="answer">{{movie.year}}</span></p>
         <p class="panel-title"><strong>Rated: </strong><span class="answer">{{movie.rated}}</span></p>
         <p class="panel-title"><strong>Runtime: </strong><span class="answer">{{movie.runtime}} minutes</span></p>
