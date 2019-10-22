@@ -12,4 +12,5 @@ export class Movie {
   language: string;
   rated: string;
   runtime: number;
+  country: string;
 }
